@@ -1,0 +1,12 @@
+-- Insert sample properties
+insert into public.properties (title, description, price, location, bedrooms, bathrooms, area, property_type, transaction_type, images, featured) values
+('Casa Moderna em Condomínio Fechado', 'Linda casa com 3 quartos, piscina e área gourmet. Localizada em condomínio de alto padrão.', 850000.00, 'Alphaville, São Paulo', 3, 3, 250.00, 'casa', 'venda', ARRAY['/placeholder.svg?height=400&width=600'], true),
+('Apartamento Cobertura Vista Mar', 'Cobertura duplex com vista panorâmica para o mar. 4 suítes e 3 vagas.', 1200000.00, 'Barra da Tijuca, Rio de Janeiro', 4, 5, 320.00, 'apartamento', 'venda', ARRAY['/placeholder.svg?height=400&width=600'], true),
+('Casa Térrea com Quintal', 'Casa espaçosa com amplo quintal, ideal para famílias. 3 quartos e garagem para 2 carros.', 450000.00, 'Jardim Paulista, Campinas', 3, 2, 180.00, 'casa', 'venda', ARRAY['/placeholder.svg?height=400&width=600'], false),
+('Apartamento 2 Quartos Centro', 'Apartamento bem localizado no centro da cidade, próximo a comércios e transporte público.', 3500.00, 'Centro, Curitiba', 2, 1, 75.00, 'apartamento', 'aluguel', ARRAY['/placeholder.svg?height=400&width=600'], false),
+('Terreno Comercial Avenida Principal', 'Terreno de esquina em avenida movimentada, ideal para comércio.', 600000.00, 'Av. Paulista, São Paulo', 0, 0, 500.00, 'terreno', 'venda', ARRAY['/placeholder.svg?height=400&width=600'], true),
+('Sala Comercial Shopping', 'Sala comercial em shopping center de alto fluxo. Pronta para uso.', 5000.00, 'Shopping Iguatemi, Brasília', 0, 1, 45.00, 'comercial', 'aluguel', ARRAY['/placeholder.svg?height=400&width=600'], false),
+('Casa de Campo com Lago', 'Propriedade rural com casa principal, lago e área de lazer completa.', 950000.00, 'Interior, Minas Gerais', 4, 3, 400.00, 'casa', 'venda', ARRAY['/placeholder.svg?height=400&width=600'], true),
+('Apartamento Studio Mobiliado', 'Studio moderno totalmente mobiliado, ideal para estudantes ou profissionais.', 2200.00, 'Vila Mariana, São Paulo', 1, 1, 35.00, 'apartamento', 'aluguel', ARRAY['/placeholder.svg?height=400&width=600'], false),
+('Casa Sobrado 4 Quartos', 'Sobrado amplo com 4 quartos, sendo 2 suítes. Área de churrasqueira.', 680000.00, 'Mooca, São Paulo', 4, 3, 220.00, 'casa', 'venda', ARRAY['/placeholder.svg?height=400&width=600'], false),
+('Apartamento Luxo 3 Suítes', 'Apartamento de alto padrão com acabamento premium e lazer completo.', 1500000.00, 'Leblon, Rio de Janeiro', 3, 4, 180.00, 'apartamento', 'venda', ARRAY['/placeholder.svg?height=400&width=600'], true);
