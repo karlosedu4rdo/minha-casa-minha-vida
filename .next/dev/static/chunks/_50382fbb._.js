@@ -576,32 +576,32 @@ var _s = __turbopack_context__.k.signature();
 const properties = {
     norte: [
         {
-            image: "/modern-apartment-building-exterior-in-brazil.jpg",
-            title: "Residencial Vista Verde",
-            location: "Tucuruvi, Zona Norte - SP",
-            price: "R$ 189.000",
+            image: "/astro-santa-marina.jpg",
+            title: "Astro Santa Marina",
+            location: "Água Branca, Zona Oeste - SP",
+            price: "R$ 295.000",
             bedrooms: 2,
             bathrooms: 1,
-            area: 45,
+            area: 38,
             subsidy: "Subsídio de até R$ 55 mil",
             installment: "Parcelas a partir de R$ 580/mês"
         },
         {
-            image: "/modern-townhouse-with-small-yard-in-brazil.jpg",
-            title: "Condomínio Parque das Árvores",
-            location: "Santana, Zona Norte - SP",
-            price: "R$ 215.000",
+            image: "/praca-santo-antonio.webp",
+            title: "Praça Santo Antonio",
+            location: "Santo Amaro, Zona Sul - SP",
+            price: "R$ 290.000",
             bedrooms: 2,
-            bathrooms: 2,
-            area: 52,
-            subsidy: "Subsídio de até R$ 47,5 mil",
+            bathrooms: 1,
+            area: 43,
+            subsidy: "Subsídio de até R$ 55 mil",
             installment: "Parcelas a partir de R$ 680/mês"
         },
         {
-            image: "/affordable-apartment-complex-in-brazil.jpg",
-            title: "Residencial Bela Vista",
-            location: "Vila Maria, Zona Norte - SP",
-            price: "R$ 175.000",
+            image: "/modern-mooca.webp",
+            title: "Modern Mooca",
+            location: "Mooca, Zona Leste - SP",
+            price: "R$ 349.000",
             bedrooms: 2,
             bathrooms: 1,
             area: 42,
@@ -818,39 +818,6 @@ function PropertyRegionsSection() {
                 }, void 0, true, {
                     fileName: "[project]/components/property-regions-section.tsx",
                     lineNumber: 204,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                    initial: {
-                        opacity: 0,
-                        y: 20
-                    },
-                    whileInView: {
-                        opacity: 1,
-                        y: 0
-                    },
-                    viewport: {
-                        once: true
-                    },
-                    transition: {
-                        duration: 0.6,
-                        delay: 0.2
-                    },
-                    className: "flex gap-2 md:gap-4 mb-6 md:mb-12 overflow-x-auto pb-2 md:pb-0 md:flex-wrap md:justify-center scrollbar-hide",
-                    children: Object.keys(regionNames).map((region)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                            onClick: ()=>setSelectedRegion(region),
-                            size: "default",
-                            variant: selectedRegion === region ? "default" : "outline",
-                            className: `flex-shrink-0 text-xs md:text-base px-3 md:px-6 py-2 md:py-3 transition-all hover:scale-105 ${selectedRegion === region ? "bg-[#005DA8] hover:bg-[#004a87] text-white" : "border-[#005DA8] text-[#005DA8] hover:bg-[#005DA8]/5"}`,
-                            children: regionNames[region]
-                        }, region, false, {
-                            fileName: "[project]/components/property-regions-section.tsx",
-                            lineNumber: 233,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "[project]/components/property-regions-section.tsx",
-                    lineNumber: 225,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2369,7 +2336,7 @@ function TestimonialsSection() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                             size: "lg",
                             className: "w-full sm:w-auto bg-[#005DA8] hover:bg-[#004a87] text-white font-semibold px-6 md:px-8 text-sm md:text-base transition-all hover:scale-105",
-                            onClick: ()=>window.open((0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$whatsapp$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getWhatsAppLink"])(__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$whatsapp$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["whatsappMessages"].nextCustomer), "_blank"),
+                            onClick: ()=>window.open((0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$whatsapp$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getWhatsAppLink"])(__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$whatsapp$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["whatsappMessages"].nextClient), "_blank"),
                             children: "Quero Ser o Próximo"
                         }, void 0, false, {
                             fileName: "[project]/components/testimonials-section.tsx",

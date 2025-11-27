@@ -12,32 +12,32 @@ type Region = "norte" | "sul" | "leste" | "oeste" | "grande-sp"
 const properties = {
   norte: [
     {
-      image: "/modern-apartment-building-exterior-in-brazil.jpg",
-      title: "Residencial Vista Verde",
-      location: "Tucuruvi, Zona Norte - SP",
-      price: "R$ 189.000",
+      image: "/astro-santa-marina.jpg",
+      title: "Astro Santa Marina",
+      location: "Água Branca, Zona Oeste - SP",
+      price: "R$ 295.000",
       bedrooms: 2,
       bathrooms: 1,
-      area: 45,
+      area: 38,
       subsidy: "Subsídio de até R$ 55 mil",
       installment: "Parcelas a partir de R$ 580/mês",
     },
     {
-      image: "/modern-townhouse-with-small-yard-in-brazil.jpg",
-      title: "Condomínio Parque das Árvores",
-      location: "Santana, Zona Norte - SP",
-      price: "R$ 215.000",
+      image: "/praca-santo-antonio.webp",
+      title: "Praça Santo Antonio",
+      location: "Santo Amaro, Zona Sul - SP",
+      price: "R$ 290.000",
       bedrooms: 2,
-      bathrooms: 2,
-      area: 52,
-      subsidy: "Subsídio de até R$ 47,5 mil",
+      bathrooms: 1,
+      area: 43,
+      subsidy: "Subsídio de até R$ 55 mil",
       installment: "Parcelas a partir de R$ 680/mês",
     },
     {
-      image: "/affordable-apartment-complex-in-brazil.jpg",
-      title: "Residencial Bela Vista",
-      location: "Vila Maria, Zona Norte - SP",
-      price: "R$ 175.000",
+      image: "/modern-mooca.webp",
+      title: "Modern Mooca",
+      location: "Mooca, Zona Leste - SP",
+      price: "R$ 349.000",
       bedrooms: 2,
       bathrooms: 1,
       area: 42,
@@ -222,7 +222,7 @@ export function PropertyRegionsSection() {
           </motion.p>
         </div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -244,7 +244,7 @@ export function PropertyRegionsSection() {
               {regionNames[region]}
             </Button>
           ))}
-        </motion.div>
+        </motion.div> */}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 max-w-7xl mx-auto">
           {properties[selectedRegion].map((property, index) => (

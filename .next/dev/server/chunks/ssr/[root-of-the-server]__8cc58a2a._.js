@@ -87,6 +87,10 @@ const metadata = {
         images: [
             "/happy-brazilian-family-in-front-of-modern-apartmen.jpg"
         ]
+    },
+    icons: {
+        icon: "/logos/logo-site.jpg",
+        apple: "/logos/logo-site.jpg"
     }
 };
 function RootLayout({ children }) {
@@ -98,7 +102,7 @@ function RootLayout({ children }) {
                 children,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 30,
+                    lineNumber: 34,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -107,38 +111,38 @@ function RootLayout({ children }) {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "RealEstateAgent",
-                            name: "Kako - MCMV",
+                            name: "Simulação Minha Casa Minha Vida",
                             description: "Especialistas em aprovação de crédito para o programa Minha Casa Minha Vida. Conquiste sua casa própria com nossa ajuda.",
-                            url: "https://www.seusite.com.br",
-                            logo: "https://www.seusite.com.br/placeholder-logo.png",
-                            telephone: "+55-11-99999-9999",
+                            url: "https://www.kakodacury.com.br",
+                            logo: "https://www.kakodacury.com.br/logo-site.jpg",
+                            telephone: "+55-11-98434-9149 ",
                             address: {
                                 "@type": "PostalAddress",
-                                streetAddress: "Avenida Paulista, 1000",
+                                streetAddress: "Avenida Ermano Marchetti, 1009",
                                 addressLocality: "São Paulo",
                                 addressRegion: "SP",
-                                postalCode: "01310-100",
+                                postalCode: "05038-001",
                                 addressCountry: "BR"
                             },
                             priceRange: "$$",
-                            hasMap: "https://goo.gl/maps/example",
+                            hasMap: "https://maps.app.goo.gl/gSnWGDFZYVapbELT8",
                             openingHours: "Mo,Tu,We,Th,Fr 09:00-18:00"
                         })
                     }
                 }, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 31,
+                    lineNumber: 35,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 28,
+            lineNumber: 32,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 27,
+        lineNumber: 31,
         columnNumber: 5
     }, this);
 }

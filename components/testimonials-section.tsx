@@ -94,7 +94,7 @@ export function TestimonialsSection() {
           <Button
             size="lg"
             className="w-full sm:w-auto bg-[#005DA8] hover:bg-[#004a87] text-white font-semibold px-6 md:px-8 text-sm md:text-base transition-all hover:scale-105"
-            onClick={() => window.open(getWhatsAppLink(whatsappMessages.nextCustomer), "_blank")}
+            onClick={() => window.open(getWhatsAppLink(whatsappMessages.nextClient), "_blank")}
           >
             Quero Ser o Próximo
           </Button>
