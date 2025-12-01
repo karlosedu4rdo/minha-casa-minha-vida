@@ -60,7 +60,7 @@ export default function RootLayout({
           }}
         />
       </body>
-      <GoogleTagManager gtmId="GTM-MC6PXDC4" />
+      <GoogleTagManager gtmId="AW-17763605348" />
     </html>
   )
 }
