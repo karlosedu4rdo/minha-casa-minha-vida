@@ -35,9 +35,18 @@ export function SimulationFormSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
 
-    // Dispara o evento de Lead para o GTM
+    // 1. Dispara o evento de Lead para o GTM
     if (window.dataLayer) {
       window.dataLayer.push({ event: "lead" })
+    }
+
+    // 2. Google Ads conversion tracking
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-17763605348/TYvzCIat9scbEOS2rJZC',
+        'value': 1.0,
+        'currency': 'BRL'
+      });
     }
 
     const incomes = []

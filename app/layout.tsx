@@ -44,7 +44,7 @@ export default function RootLayout({
                 "Especialistas em aprovação de crédito para o programa Minha Casa Minha Vida. Conquiste sua casa própria com nossa ajuda.",
               url: "https://www.kakodacury.com.br", // TODO: Trocar pela URL final do site
               logo: "https://www.kakodacury.com.br/logo-site.jpg", // TODO: Trocar pela URL do logo
-              telephone: "+55-11-98434-9149 ", // TODO: Trocar pelo telefone de contato
+              telephone: "+55-11-95974-7934", // TODO: Trocar pelo telefone de contato
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Avenida Ermano Marchetti, 1009",
