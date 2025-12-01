@@ -1,5 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
+import { GoogleTagManager } from '@next/third-parties/google'
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
@@ -59,6 +60,7 @@ export default function RootLayout({
           }}
         />
       </body>
+      <GoogleTagManager gtmId="GTM-MC6PXDC4" />
     </html>
   )
 }
