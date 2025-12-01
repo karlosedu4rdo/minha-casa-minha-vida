@@ -1,5 +1,5 @@
 export function getWhatsAppLink(message: string): string {
-  const phoneNumber = "5511984349149" // +55 11 98434-9149
+  const phoneNumber = "5511959747934" // +55 11 95974-7934
   const encodedMessage = encodeURIComponent(message)
   return `https://wa.me/${phoneNumber}?text=${encodedMessage}`
 }

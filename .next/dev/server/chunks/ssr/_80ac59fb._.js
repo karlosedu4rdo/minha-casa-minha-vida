@@ -83,7 +83,7 @@ __turbopack_context__.s([
     ()=>whatsappMessages
 ]);
 function getWhatsAppLink(message) {
-    const phoneNumber = "5511984349149" // +55 11 98434-9149
+    const phoneNumber = "5511959747934" // +55 11 95974-7934
     ;
     const encodedMessage = encodeURIComponent(message);
     return `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
@@ -1209,12 +1209,15 @@ function SimulationFormSection() {
     };
     const handleSubmit = (e)=>{
         e.preventDefault();
-        // Dispara o evento de Lead para o GTM
+        // 1. Dispara o evento de Lead para o GTM
         if (window.dataLayer) {
             window.dataLayer.push({
                 event: "lead"
             });
         }
+        // 2. Google Ads conversion tracking
+        if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+        ;
         const incomes = [];
         if (formData.income1) incomes.push(formData.income1);
         if (formData.income2) incomes.push(formData.income2);
@@ -1265,7 +1268,7 @@ Email: ${formData.email}`;
                                         className: "w-4 h-4 md:w-5 md:h-5 text-[#005DA8]"
                                     }, void 0, false, {
                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                        lineNumber: 77,
+                                        lineNumber: 86,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1273,13 +1276,13 @@ Email: ${formData.email}`;
                                         children: "Simulação Gratuita"
                                     }, void 0, false, {
                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 87,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                lineNumber: 76,
+                                lineNumber: 85,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1287,7 +1290,7 @@ Email: ${formData.email}`;
                                 children: "Simulação"
                             }, void 0, false, {
                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                lineNumber: 80,
+                                lineNumber: 89,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1295,13 +1298,13 @@ Email: ${formData.email}`;
                                 children: "Quantas pessoas vão somar a renda com você?"
                             }, void 0, false, {
                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                lineNumber: 83,
+                                lineNumber: 92,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/simulation-form-section.tsx",
-                        lineNumber: 69,
+                        lineNumber: 78,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].form, {
@@ -1352,22 +1355,22 @@ Email: ${formData.email}`;
                                                 children: option
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 101,
+                                                lineNumber: 110,
                                                 columnNumber: 21
                                             }, this)
                                         }, option, false, {
                                             fileName: "[project]/components/simulation-form-section.tsx",
-                                            lineNumber: 100,
+                                            lineNumber: 109,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/simulation-form-section.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 107,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                lineNumber: 97,
+                                lineNumber: 106,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -1411,7 +1414,7 @@ Email: ${formData.email}`;
                                                     children: index === 0 ? "Sua renda:" : `Renda da pessoa ${index}:`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/simulation-form-section.tsx",
-                                                    lineNumber: 137,
+                                                    lineNumber: 146,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -1427,23 +1430,23 @@ Email: ${formData.email}`;
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/simulation-form-section.tsx",
-                                                    lineNumber: 143,
+                                                    lineNumber: 152,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/simulation-form-section.tsx",
-                                            lineNumber: 130,
+                                            lineNumber: 139,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/simulation-form-section.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 131,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                lineNumber: 120,
+                                lineNumber: 129,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1457,7 +1460,7 @@ Email: ${formData.email}`;
                                                 children: "Trabalhou mais de 3 anos sob regime do FGTS?"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 172,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$radio$2d$group$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RadioGroup"], {
@@ -1478,7 +1481,7 @@ Email: ${formData.email}`;
                                                                 className: "border-2 w-4 h-4 md:w-5 md:h-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                                lineNumber: 174,
+                                                                lineNumber: 183,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
@@ -1487,13 +1490,13 @@ Email: ${formData.email}`;
                                                                 children: "Sim"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                                lineNumber: 175,
+                                                                lineNumber: 184,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                                        lineNumber: 173,
+                                                        lineNumber: 182,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1505,7 +1508,7 @@ Email: ${formData.email}`;
                                                                 className: "border-2 w-4 h-4 md:w-5 md:h-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                                lineNumber: 180,
+                                                                lineNumber: 189,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Label"], {
@@ -1514,25 +1517,25 @@ Email: ${formData.email}`;
                                                                 children: "Não"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                                lineNumber: 181,
+                                                                lineNumber: 190,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                                        lineNumber: 179,
+                                                        lineNumber: 188,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 166,
+                                                lineNumber: 175,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 171,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -1560,7 +1563,7 @@ Email: ${formData.email}`;
                                                     children: "Se sim, informe o valor do FGTS:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/simulation-form-section.tsx",
-                                                    lineNumber: 198,
+                                                    lineNumber: 207,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -1576,24 +1579,24 @@ Email: ${formData.email}`;
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/simulation-form-section.tsx",
-                                                    lineNumber: 201,
+                                                    lineNumber: 210,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/simulation-form-section.tsx",
-                                            lineNumber: 191,
+                                            lineNumber: 200,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                        lineNumber: 189,
+                                        lineNumber: 198,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                lineNumber: 160,
+                                lineNumber: 169,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1605,7 +1608,7 @@ Email: ${formData.email}`;
                                         children: "Qual a Região de Interesse?"
                                     }, void 0, false, {
                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                        lineNumber: 217,
+                                        lineNumber: 226,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1623,7 +1626,7 @@ Email: ${formData.email}`;
                                                 children: "Selecione uma região"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 227,
+                                                lineNumber: 236,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1631,7 +1634,7 @@ Email: ${formData.email}`;
                                                 children: "Zona Norte"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 228,
+                                                lineNumber: 237,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1639,7 +1642,7 @@ Email: ${formData.email}`;
                                                 children: "Zona Sul"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 229,
+                                                lineNumber: 238,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1647,7 +1650,7 @@ Email: ${formData.email}`;
                                                 children: "Zona Leste"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 230,
+                                                lineNumber: 239,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1655,7 +1658,7 @@ Email: ${formData.email}`;
                                                 children: "Zona Oeste"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 231,
+                                                lineNumber: 240,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1663,19 +1666,19 @@ Email: ${formData.email}`;
                                                 children: "Grande SP"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 232,
+                                                lineNumber: 241,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                        lineNumber: 220,
+                                        lineNumber: 229,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                lineNumber: 216,
+                                lineNumber: 225,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1690,7 +1693,7 @@ Email: ${formData.email}`;
                                                 children: "Nome"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 239,
+                                                lineNumber: 248,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -1706,13 +1709,13 @@ Email: ${formData.email}`;
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 242,
+                                                lineNumber: 251,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                        lineNumber: 238,
+                                        lineNumber: 247,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1724,7 +1727,7 @@ Email: ${formData.email}`;
                                                 children: "Telefone"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 255,
+                                                lineNumber: 264,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -1740,13 +1743,13 @@ Email: ${formData.email}`;
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 258,
+                                                lineNumber: 267,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                        lineNumber: 254,
+                                        lineNumber: 263,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1758,7 +1761,7 @@ Email: ${formData.email}`;
                                                 children: "Email"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 271,
+                                                lineNumber: 280,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -1774,19 +1777,19 @@ Email: ${formData.email}`;
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                                lineNumber: 274,
+                                                lineNumber: 283,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/simulation-form-section.tsx",
-                                        lineNumber: 270,
+                                        lineNumber: 279,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                lineNumber: 236,
+                                lineNumber: 245,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1803,34 +1806,34 @@ Email: ${formData.email}`;
                                     children: "Simular Agora"
                                 }, void 0, false, {
                                     fileName: "[project]/components/simulation-form-section.tsx",
-                                    lineNumber: 288,
+                                    lineNumber: 297,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/simulation-form-section.tsx",
-                                lineNumber: 287,
+                                lineNumber: 296,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/simulation-form-section.tsx",
-                        lineNumber: 88,
+                        lineNumber: 97,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/simulation-form-section.tsx",
-                lineNumber: 68,
+                lineNumber: 77,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/simulation-form-section.tsx",
-            lineNumber: 67,
+            lineNumber: 76,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/simulation-form-section.tsx",
-        lineNumber: 66,
+        lineNumber: 75,
         columnNumber: 5
     }, this);
 }
@@ -1922,6 +1925,7 @@ function WhyChooseSection() {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        id: "why-choose",
         className: "py-8 md:py-12 lg:py-16 bg-background",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-4",
@@ -2136,6 +2140,7 @@ function TestimonialsSection() {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        id: "testimonials",
         className: "py-8 md:py-12 lg:py-16 bg-background",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-4",
