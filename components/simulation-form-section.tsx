@@ -40,15 +40,6 @@ export function SimulationFormSection() {
       window.dataLayer.push({ event: "lead" })
     }
 
-    // 2. Google Ads conversion tracking
-    if (typeof window !== "undefined" && (window as any).gtag) {
-      (window as any).gtag('event', 'conversion', {
-        'send_to': 'AW-17763605348/TYvzCIat9scbEOS2rJZC',
-        'value': 1.0,
-        'currency': 'BRL'
-      });
-    }
-
     const incomes = []
     if (formData.income1) incomes.push(formData.income1)
     if (formData.income2) incomes.push(formData.income2)

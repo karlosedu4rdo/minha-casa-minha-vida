@@ -30,6 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <GoogleTagManager gtmId="GTM-MC6PXDC4" />
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
@@ -60,7 +61,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      <GoogleTagManager gtmId="AW-17763605348" />
     </html>
   )
 }
